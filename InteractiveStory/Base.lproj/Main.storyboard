@@ -24,6 +24,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIO-Wp-SYM">
                                 <rect key="frame" x="135.5" y="784" width="143" height="30"/>
                                 <state key="normal" title="Start Your Adventure"/>
+                                <connections>
+                                    <segue destination="U8H-rw-jV4" kind="show" id="8pk-jm-Jpk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -42,6 +45,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="87.723214285714278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JV7-98-jZs">
+            <objects>
+                <viewController id="U8H-rw-jV4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tfp-DT-BOL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="k6d-io-1Nm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jKL-k7-XJz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1788" y="88"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JVg-xy-EC5">
