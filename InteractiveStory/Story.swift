@@ -24,14 +24,14 @@ extension Story {
     var artwork: UIImage {
         switch self {
         case .returnTrip: return #imageLiteral(resourceName: "ReturnTrip.img")
-        case .touchDown: return #imageLiteral( resourceName: "touchDown.jpg")
-        case .homeward: return #imageLiteral(resourceName: "homeward.jpg")
-        case .rover: return #imageLiteral(resourceName: "rover.jpg")
-        case .cave: return #imageLiteral (resourceName: "cave.jpg")
-        case .crate: return #imageLiteral(resourceName: "crate.jpg")
-        case .monster: return #imageLiteral(resourceName: "monster.jpg")
-        case .droid: return #imageLiteral(resourceName: "droid.jpg")
-        case .home: return #imageLiteral(resourceName: "home.jpg")
+        case .touchDown: return #imageLiteral(resourceName: "TouchDown.jpg")
+        case .homeward: return #imageLiteral(resourceName: "Homeward.jpg")
+        case .rover: return #imageLiteral(resourceName: "Rover.jpg")
+        case .cave: return #imageLiteral(resourceName: "Cave.jpg")
+        case .crate: return #imageLiteral(resourceName: "Crate.jpg")
+        case .monster: return #imageLiteral(resourceName: "Monster.jpg")
+        case .droid: return #imageLiteral(resourceName: "Droid.jpg")
+        case .home: return #imageLiteral(resourceName: "Home.jpg")
         }
     }
     
