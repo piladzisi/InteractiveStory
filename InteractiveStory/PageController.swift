@@ -19,6 +19,8 @@ class PageController: UIViewController {
     let firstChoiceButton = UIButton(type: .system)
     let secondChoiceButton = UIButton(type: .system)
     
+    var aProperty = { return 1 } //anonymous function or a closure
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
@@ -27,6 +29,7 @@ class PageController: UIViewController {
         self.page = page
         super.init(nibName: nil, bundle: nil)
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
