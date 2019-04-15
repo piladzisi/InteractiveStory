@@ -38,7 +38,7 @@ extension Story {
     var text: String {
         switch self {
         case .returnTrip(let name):
-            return "On your return trip from studying Saturn's rings, you hear a distress signal that seems to be coming from the surface of Mars. It's strange, because there hasn't been a colony there in years. \"Help me\(name), you're my only hope.\" "
+            return "On your return trip from studying Saturn's rings, you hear a distress signal that seems to be coming from the surface of Mars. It's strange, because there hasn't been a colony there in years. \"Help me \(name), you're my only hope.\" "
         case .touchDown:
             return "You deftly land your ship near where the distress signal originated. You didn't notice anything strange on your fly-by. Behind you is an abandoned rover from the early 21st century and a small crate."
         case .homeward:
