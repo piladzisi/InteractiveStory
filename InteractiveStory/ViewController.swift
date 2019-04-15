@@ -63,7 +63,7 @@ class ViewController: UIViewController {
     @objc func keyboardWillHide(_ notification: Notification){
             textFieldBottomConstraint.constant = 40
             
-            UIView.animate(withDuration: 0.7) {
+            UIView.animate(withDuration: 0.8) {
                 self.view.layoutIfNeeded()
             }
         }
